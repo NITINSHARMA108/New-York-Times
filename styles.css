@@ -23,19 +23,22 @@ header > .nav1{
     align-items:center;
 
 }
-header > .nav2{
+header > .nav2 {
     display:grid;
-    grid-template-columns: 40% 30% 20%;
+    grid-template-columns: 45% 25% 20%;
     grid-gap:5%;
+   
+
 
 }
 ul{
     display:flex;
     /*justify-content:space-between;*/
+    flex-wrap:wrap;
     margin:0;
 }
 li{
-    padding:5px;
+    padding:2px;
 }
 main{
     display:flex;
